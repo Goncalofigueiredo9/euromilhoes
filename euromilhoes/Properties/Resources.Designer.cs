@@ -83,6 +83,16 @@ namespace euromilhoes.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap euromilhoes {
+            get {
+                object obj = ResourceManager.GetObject("euromilhoes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap junto {
             get {
                 object obj = ResourceManager.GetObject("junto", resourceCulture);
