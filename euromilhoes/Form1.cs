@@ -36,8 +36,8 @@ namespace euromilhoes
             {
                 temp.Text = "X";
                 nestrelas++;
+                teste.Text = temp.Tag.ToString();
             }
-            teste.Text = temp.Tag.ToString();
         }
 
         private void numeros(object sender, EventArgs e)
@@ -52,8 +52,8 @@ namespace euromilhoes
             {
                 temp.Text = "X";
                 nnumero++;
+                teste.Text = temp.Tag.ToString();
             }
-            teste.Text = temp.Tag.ToString();
         }
 
         private void Label63_Click(object sender, EventArgs e)
