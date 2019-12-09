@@ -48,7 +48,14 @@ namespace euromilhoes
         {
             get
             {
-                return "10+20+30+40+50";
+                string lista = "";
+                for (int i = 0; i < 50; i++)
+                    if (numeros[i])
+                    {
+                        if (lista != "") lista += "+";
+                        lista += (i + 1).ToString();
+                    }
+                return lista;
             }
         }
     }
