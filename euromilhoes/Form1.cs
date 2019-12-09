@@ -17,18 +17,19 @@ namespace euromilhoes
             InitializeComponent();
         }
 
-        private Bilhetes E = new Bilhetes();
         
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-
+        private int nestrelas = 0, nnumero = 0;
+        private const string cruz = "X";
+        private Bilhetes E = new Bilhetes();
         private void estrela(object sender, EventArgs e)
         {
             Label temp = (Label)sender;
             temp.Text = E.estrela(Convert.ToInt32(temp.Tag)-1);
-            teste.Text = temp.Tag.ToString();
+            teste1.Text = E.listao;
         }
 
         private void numeros(object sender, EventArgs e)

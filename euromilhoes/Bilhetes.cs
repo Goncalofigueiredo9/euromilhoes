@@ -14,7 +14,7 @@ namespace euromilhoes
         private bool[] numeros = new bool[50];
         public string numero(int n)
         {
-            if (!numeros[n])
+            if (numeros[n])
             {
                 numeros[n] = false;
                 nnumero--;
@@ -27,10 +27,9 @@ namespace euromilhoes
             if (numeros[n]) return cruz;
             else return "";
         }
-
         public string estrela(int n)
         {
-            if (!estrelas[n])
+            if (estrelas[n])
             {
                 estrelas[n] = false;
                 nestrelas--;
@@ -43,7 +42,6 @@ namespace euromilhoes
             if (estrelas[n]) return cruz;
             else return "";
         }
-        
         public string listanum
         {
             get
@@ -56,6 +54,23 @@ namespace euromilhoes
                         lista += (i + 1).ToString();
                     }
                 return lista;
+
+            }
+
+        }
+        public string listao
+        {
+            get
+            {
+                string listam = "";
+                for (int i = 0; i < 12; i++)
+                    if (estrelas[i])
+                    {
+                        if (listam != "") listam += "+";
+                        listam += (i + 1).ToString();
+                    }
+                return listam;
+
             }
         }
     }

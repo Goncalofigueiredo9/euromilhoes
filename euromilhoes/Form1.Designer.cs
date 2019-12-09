@@ -92,6 +92,7 @@
             this.label62 = new System.Windows.Forms.Label();
             this.teste = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.teste1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -830,7 +831,7 @@
             // teste
             // 
             this.teste.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.Location = new System.Drawing.Point(342, 37);
+            this.teste.Location = new System.Drawing.Point(60, 528);
             this.teste.Name = "teste";
             this.teste.Size = new System.Drawing.Size(346, 35);
             this.teste.TabIndex = 56;
@@ -847,6 +848,14 @@
             this.pictureBox1.TabIndex = 57;
             this.pictureBox1.TabStop = false;
             // 
+            // teste1
+            // 
+            this.teste1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teste1.Location = new System.Drawing.Point(601, 525);
+            this.teste1.Name = "teste1";
+            this.teste1.Size = new System.Drawing.Size(129, 38);
+            this.teste1.TabIndex = 58;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -854,6 +863,7 @@
             this.BackgroundImage = global::euromilhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
+            this.Controls.Add(this.teste1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.teste);
             this.Controls.Add(this.label62);
@@ -993,6 +1003,7 @@
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label teste;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label teste1;
     }
 }
 
