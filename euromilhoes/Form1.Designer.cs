@@ -91,15 +91,17 @@
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.teste = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(103, 118);
+            this.label1.Location = new System.Drawing.Point(103, 119);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 34);
+            this.label1.Size = new System.Drawing.Size(36, 30);
             this.label1.TabIndex = 0;
             this.label1.Tag = "1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -109,9 +111,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(145, 120);
+            this.label2.Location = new System.Drawing.Point(145, 121);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 34);
+            this.label2.Size = new System.Drawing.Size(36, 30);
             this.label2.TabIndex = 1;
             this.label2.Tag = "2";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -121,9 +123,9 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(187, 120);
+            this.label3.Location = new System.Drawing.Point(187, 121);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 34);
+            this.label3.Size = new System.Drawing.Size(36, 30);
             this.label3.TabIndex = 2;
             this.label3.Tag = "3";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -133,9 +135,9 @@
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(229, 120);
+            this.label4.Location = new System.Drawing.Point(229, 121);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 34);
+            this.label4.Size = new System.Drawing.Size(36, 30);
             this.label4.TabIndex = 3;
             this.label4.Tag = "4";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -145,9 +147,9 @@
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(271, 120);
+            this.label5.Location = new System.Drawing.Point(271, 121);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 34);
+            this.label5.Size = new System.Drawing.Size(36, 30);
             this.label5.TabIndex = 4;
             this.label5.Tag = "5";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -157,9 +159,9 @@
             // 
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(313, 120);
+            this.label6.Location = new System.Drawing.Point(313, 121);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 34);
+            this.label6.Size = new System.Drawing.Size(36, 30);
             this.label6.TabIndex = 5;
             this.label6.Tag = "6";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -169,9 +171,9 @@
             // 
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(103, 162);
+            this.label7.Location = new System.Drawing.Point(103, 163);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 34);
+            this.label7.Size = new System.Drawing.Size(36, 30);
             this.label7.TabIndex = 6;
             this.label7.Tag = "7";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -181,9 +183,9 @@
             // 
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(145, 162);
+            this.label8.Location = new System.Drawing.Point(145, 163);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(36, 34);
+            this.label8.Size = new System.Drawing.Size(36, 30);
             this.label8.TabIndex = 7;
             this.label8.Tag = "8";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -193,9 +195,9 @@
             // 
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(187, 162);
+            this.label9.Location = new System.Drawing.Point(187, 163);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(36, 34);
+            this.label9.Size = new System.Drawing.Size(36, 30);
             this.label9.TabIndex = 8;
             this.label9.Tag = "9";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -205,9 +207,9 @@
             // 
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(229, 162);
+            this.label10.Location = new System.Drawing.Point(229, 163);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 34);
+            this.label10.Size = new System.Drawing.Size(36, 30);
             this.label10.TabIndex = 9;
             this.label10.Tag = "10";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -217,9 +219,9 @@
             // 
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(271, 162);
+            this.label11.Location = new System.Drawing.Point(271, 163);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(36, 34);
+            this.label11.Size = new System.Drawing.Size(36, 30);
             this.label11.TabIndex = 10;
             this.label11.Tag = "11";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -229,9 +231,9 @@
             // 
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(313, 162);
+            this.label12.Location = new System.Drawing.Point(313, 163);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(36, 34);
+            this.label12.Size = new System.Drawing.Size(36, 30);
             this.label12.TabIndex = 11;
             this.label12.Tag = "12";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -241,9 +243,9 @@
             // 
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(187, 203);
+            this.label13.Location = new System.Drawing.Point(187, 204);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(36, 34);
+            this.label13.Size = new System.Drawing.Size(36, 30);
             this.label13.TabIndex = 12;
             this.label13.Tag = "15";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -253,9 +255,9 @@
             // 
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(103, 203);
+            this.label14.Location = new System.Drawing.Point(103, 204);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(36, 34);
+            this.label14.Size = new System.Drawing.Size(36, 30);
             this.label14.TabIndex = 12;
             this.label14.Tag = "13";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -265,9 +267,9 @@
             // 
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(145, 203);
+            this.label15.Location = new System.Drawing.Point(145, 204);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(36, 34);
+            this.label15.Size = new System.Drawing.Size(36, 30);
             this.label15.TabIndex = 13;
             this.label15.Tag = "14";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -277,9 +279,9 @@
             // 
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(229, 203);
+            this.label16.Location = new System.Drawing.Point(229, 204);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(36, 34);
+            this.label16.Size = new System.Drawing.Size(36, 30);
             this.label16.TabIndex = 14;
             this.label16.Tag = "16";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -289,9 +291,9 @@
             // 
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(271, 203);
+            this.label17.Location = new System.Drawing.Point(271, 204);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(36, 34);
+            this.label17.Size = new System.Drawing.Size(36, 30);
             this.label17.TabIndex = 15;
             this.label17.Tag = "17";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -301,9 +303,9 @@
             // 
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(313, 203);
+            this.label18.Location = new System.Drawing.Point(313, 204);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(36, 34);
+            this.label18.Size = new System.Drawing.Size(36, 30);
             this.label18.TabIndex = 16;
             this.label18.Tag = "18";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -313,9 +315,9 @@
             // 
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(102, 244);
+            this.label19.Location = new System.Drawing.Point(102, 245);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(36, 34);
+            this.label19.Size = new System.Drawing.Size(36, 30);
             this.label19.TabIndex = 17;
             this.label19.Tag = "19";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -325,9 +327,9 @@
             // 
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(144, 244);
+            this.label20.Location = new System.Drawing.Point(144, 245);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(36, 34);
+            this.label20.Size = new System.Drawing.Size(36, 30);
             this.label20.TabIndex = 18;
             this.label20.Tag = "20";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -337,9 +339,9 @@
             // 
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(187, 244);
+            this.label21.Location = new System.Drawing.Point(187, 245);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(36, 34);
+            this.label21.Size = new System.Drawing.Size(36, 30);
             this.label21.TabIndex = 19;
             this.label21.Tag = "21";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -349,9 +351,9 @@
             // 
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(145, 284);
+            this.label22.Location = new System.Drawing.Point(145, 285);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(36, 34);
+            this.label22.Size = new System.Drawing.Size(36, 30);
             this.label22.TabIndex = 20;
             this.label22.Tag = "26";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -361,9 +363,9 @@
             // 
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(229, 244);
+            this.label23.Location = new System.Drawing.Point(229, 245);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(36, 34);
+            this.label23.Size = new System.Drawing.Size(36, 30);
             this.label23.TabIndex = 20;
             this.label23.Tag = "22";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -373,9 +375,9 @@
             // 
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(103, 284);
+            this.label24.Location = new System.Drawing.Point(103, 285);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(36, 34);
+            this.label24.Size = new System.Drawing.Size(36, 30);
             this.label24.TabIndex = 21;
             this.label24.Tag = "25";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -385,9 +387,9 @@
             // 
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(271, 244);
+            this.label25.Location = new System.Drawing.Point(271, 245);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(36, 34);
+            this.label25.Size = new System.Drawing.Size(36, 30);
             this.label25.TabIndex = 21;
             this.label25.Tag = "23";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -397,9 +399,9 @@
             // 
             this.label26.BackColor = System.Drawing.Color.Transparent;
             this.label26.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(313, 244);
+            this.label26.Location = new System.Drawing.Point(313, 245);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(36, 34);
+            this.label26.Size = new System.Drawing.Size(36, 30);
             this.label26.TabIndex = 22;
             this.label26.Tag = "24";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -409,9 +411,9 @@
             // 
             this.label27.BackColor = System.Drawing.Color.Transparent;
             this.label27.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(187, 284);
+            this.label27.Location = new System.Drawing.Point(187, 285);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(36, 34);
+            this.label27.Size = new System.Drawing.Size(36, 30);
             this.label27.TabIndex = 23;
             this.label27.Tag = "27";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -421,9 +423,9 @@
             // 
             this.label28.BackColor = System.Drawing.Color.Transparent;
             this.label28.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(229, 284);
+            this.label28.Location = new System.Drawing.Point(229, 285);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(36, 34);
+            this.label28.Size = new System.Drawing.Size(36, 30);
             this.label28.TabIndex = 24;
             this.label28.Tag = "28";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -433,9 +435,9 @@
             // 
             this.label29.BackColor = System.Drawing.Color.Transparent;
             this.label29.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(271, 284);
+            this.label29.Location = new System.Drawing.Point(271, 285);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(36, 34);
+            this.label29.Size = new System.Drawing.Size(36, 30);
             this.label29.TabIndex = 25;
             this.label29.Tag = "29";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -445,9 +447,9 @@
             // 
             this.label30.BackColor = System.Drawing.Color.Transparent;
             this.label30.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(313, 284);
+            this.label30.Location = new System.Drawing.Point(313, 285);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(36, 34);
+            this.label30.Size = new System.Drawing.Size(36, 30);
             this.label30.TabIndex = 26;
             this.label30.Tag = "30";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -457,9 +459,9 @@
             // 
             this.label31.BackColor = System.Drawing.Color.Transparent;
             this.label31.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(103, 325);
+            this.label31.Location = new System.Drawing.Point(103, 326);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(36, 34);
+            this.label31.Size = new System.Drawing.Size(36, 30);
             this.label31.TabIndex = 27;
             this.label31.Tag = "31";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -469,9 +471,9 @@
             // 
             this.label32.BackColor = System.Drawing.Color.Transparent;
             this.label32.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(145, 325);
+            this.label32.Location = new System.Drawing.Point(145, 326);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(36, 34);
+            this.label32.Size = new System.Drawing.Size(36, 30);
             this.label32.TabIndex = 28;
             this.label32.Tag = "32";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -481,9 +483,9 @@
             // 
             this.label33.BackColor = System.Drawing.Color.Transparent;
             this.label33.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(102, 364);
+            this.label33.Location = new System.Drawing.Point(102, 365);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(36, 34);
+            this.label33.Size = new System.Drawing.Size(36, 30);
             this.label33.TabIndex = 29;
             this.label33.Tag = "37";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -493,9 +495,9 @@
             // 
             this.label34.BackColor = System.Drawing.Color.Transparent;
             this.label34.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(187, 325);
+            this.label34.Location = new System.Drawing.Point(187, 326);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(36, 34);
+            this.label34.Size = new System.Drawing.Size(36, 30);
             this.label34.TabIndex = 29;
             this.label34.Tag = "33";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -505,9 +507,9 @@
             // 
             this.label35.BackColor = System.Drawing.Color.Transparent;
             this.label35.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(229, 325);
+            this.label35.Location = new System.Drawing.Point(229, 326);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(36, 34);
+            this.label35.Size = new System.Drawing.Size(36, 30);
             this.label35.TabIndex = 30;
             this.label35.Tag = "34";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -517,9 +519,9 @@
             // 
             this.label36.BackColor = System.Drawing.Color.Transparent;
             this.label36.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(271, 325);
+            this.label36.Location = new System.Drawing.Point(271, 326);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(36, 34);
+            this.label36.Size = new System.Drawing.Size(36, 30);
             this.label36.TabIndex = 31;
             this.label36.Tag = "35";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -529,9 +531,9 @@
             // 
             this.label37.BackColor = System.Drawing.Color.Transparent;
             this.label37.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(313, 325);
+            this.label37.Location = new System.Drawing.Point(313, 326);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(36, 34);
+            this.label37.Size = new System.Drawing.Size(36, 30);
             this.label37.TabIndex = 32;
             this.label37.Tag = "36";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -541,9 +543,9 @@
             // 
             this.label38.BackColor = System.Drawing.Color.Transparent;
             this.label38.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(313, 364);
+            this.label38.Location = new System.Drawing.Point(313, 365);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(36, 34);
+            this.label38.Size = new System.Drawing.Size(36, 30);
             this.label38.TabIndex = 33;
             this.label38.Tag = "42";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -553,9 +555,9 @@
             // 
             this.label39.BackColor = System.Drawing.Color.Transparent;
             this.label39.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(145, 364);
+            this.label39.Location = new System.Drawing.Point(145, 365);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(36, 34);
+            this.label39.Size = new System.Drawing.Size(36, 30);
             this.label39.TabIndex = 33;
             this.label39.Tag = "38";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -565,9 +567,9 @@
             // 
             this.label40.BackColor = System.Drawing.Color.Transparent;
             this.label40.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(187, 364);
+            this.label40.Location = new System.Drawing.Point(187, 365);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(36, 34);
+            this.label40.Size = new System.Drawing.Size(36, 30);
             this.label40.TabIndex = 34;
             this.label40.Tag = "39";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -577,9 +579,9 @@
             // 
             this.label41.BackColor = System.Drawing.Color.Transparent;
             this.label41.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(229, 364);
+            this.label41.Location = new System.Drawing.Point(229, 365);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(36, 34);
+            this.label41.Size = new System.Drawing.Size(36, 30);
             this.label41.TabIndex = 35;
             this.label41.Tag = "40";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -589,9 +591,9 @@
             // 
             this.label42.BackColor = System.Drawing.Color.Transparent;
             this.label42.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(271, 364);
+            this.label42.Location = new System.Drawing.Point(271, 365);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(36, 34);
+            this.label42.Size = new System.Drawing.Size(36, 30);
             this.label42.TabIndex = 36;
             this.label42.Tag = "41";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -601,9 +603,9 @@
             // 
             this.label43.BackColor = System.Drawing.Color.Transparent;
             this.label43.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(103, 407);
+            this.label43.Location = new System.Drawing.Point(103, 408);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(36, 34);
+            this.label43.Size = new System.Drawing.Size(36, 30);
             this.label43.TabIndex = 37;
             this.label43.Tag = "43";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -613,9 +615,9 @@
             // 
             this.label44.BackColor = System.Drawing.Color.Transparent;
             this.label44.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(229, 407);
+            this.label44.Location = new System.Drawing.Point(229, 408);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(36, 34);
+            this.label44.Size = new System.Drawing.Size(36, 30);
             this.label44.TabIndex = 38;
             this.label44.Tag = "46";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -625,9 +627,9 @@
             // 
             this.label45.BackColor = System.Drawing.Color.Transparent;
             this.label45.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(145, 407);
+            this.label45.Location = new System.Drawing.Point(145, 408);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(36, 34);
+            this.label45.Size = new System.Drawing.Size(36, 30);
             this.label45.TabIndex = 38;
             this.label45.Tag = "44";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -637,9 +639,9 @@
             // 
             this.label46.BackColor = System.Drawing.Color.Transparent;
             this.label46.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(187, 407);
+            this.label46.Location = new System.Drawing.Point(187, 408);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(36, 34);
+            this.label46.Size = new System.Drawing.Size(36, 30);
             this.label46.TabIndex = 39;
             this.label46.Tag = "45";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -649,9 +651,9 @@
             // 
             this.label47.BackColor = System.Drawing.Color.Transparent;
             this.label47.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(271, 407);
+            this.label47.Location = new System.Drawing.Point(271, 408);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(36, 34);
+            this.label47.Size = new System.Drawing.Size(36, 30);
             this.label47.TabIndex = 40;
             this.label47.Tag = "47";
             this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -661,9 +663,9 @@
             // 
             this.label48.BackColor = System.Drawing.Color.Transparent;
             this.label48.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(313, 407);
+            this.label48.Location = new System.Drawing.Point(313, 408);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(36, 34);
+            this.label48.Size = new System.Drawing.Size(36, 30);
             this.label48.TabIndex = 41;
             this.label48.Tag = "48";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -673,9 +675,9 @@
             // 
             this.label49.BackColor = System.Drawing.Color.Transparent;
             this.label49.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(103, 447);
+            this.label49.Location = new System.Drawing.Point(103, 448);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(36, 34);
+            this.label49.Size = new System.Drawing.Size(36, 30);
             this.label49.TabIndex = 42;
             this.label49.Tag = "49";
             this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -685,9 +687,9 @@
             // 
             this.label50.BackColor = System.Drawing.Color.Transparent;
             this.label50.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(144, 447);
+            this.label50.Location = new System.Drawing.Point(144, 448);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(36, 34);
+            this.label50.Size = new System.Drawing.Size(36, 30);
             this.label50.TabIndex = 43;
             this.label50.Tag = "50";
             this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -830,10 +832,20 @@
             this.teste.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teste.Location = new System.Drawing.Point(342, 37);
             this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(132, 35);
+            this.teste.Size = new System.Drawing.Size(346, 35);
             this.teste.TabIndex = 56;
-            this.teste.Text = "label63";
             this.teste.Click += new System.EventHandler(this.Label63_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::euromilhoes.Properties.Resources.Euromilhões_e1554881724143;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(191, 91);
+            this.pictureBox1.TabIndex = 57;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -842,6 +854,7 @@
             this.BackgroundImage = global::euromilhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.teste);
             this.Controls.Add(this.label62);
             this.Controls.Add(this.label61);
@@ -909,6 +922,7 @@
             this.Name = "Form1";
             this.Text = "-";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -978,6 +992,7 @@
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.Label teste;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

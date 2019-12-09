@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bilhetes.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +95,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\euromilhoes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capturar1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Euromilhões-e1554881724143.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
