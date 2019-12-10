@@ -39,6 +39,28 @@ namespace euromilhoes
             teste.Text = E.listanum;
         }
 
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        Random rnd = new Random();
+        int randomnumber;
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            randomnumber = rnd.Next(50);
+            randomnumber = rnd.Next(50);
+            randomnumber = rnd.Next(50);
+            randomnumber = rnd.Next(50);
+            randomnumber = rnd.Next(50);
+            label63.Text = randomnumber.ToString();
+            label63.Text = randomnumber.ToString();
+            label63.Text = randomnumber.ToString();
+            label63.Text = randomnumber.ToString();
+            label63.Text = randomnumber.ToString();
+
+        }
+
         private void Label63_Click(object sender, EventArgs e)
         {
 

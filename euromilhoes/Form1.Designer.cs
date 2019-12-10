@@ -93,6 +93,8 @@
             this.teste = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.teste1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label63 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -831,7 +833,8 @@
             // teste
             // 
             this.teste.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.Location = new System.Drawing.Point(60, 528);
+            this.teste.ForeColor = System.Drawing.Color.White;
+            this.teste.Location = new System.Drawing.Point(41, 504);
             this.teste.Name = "teste";
             this.teste.Size = new System.Drawing.Size(346, 35);
             this.teste.TabIndex = 56;
@@ -839,14 +842,15 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackColor = System.Drawing.Color.Black;
             this.pictureBox1.BackgroundImage = global::euromilhoes.Properties.Resources.Euromilhões_e1554881724143;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(191, 91);
+            this.pictureBox1.Size = new System.Drawing.Size(191, 96);
             this.pictureBox1.TabIndex = 57;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // teste1
             // 
@@ -856,13 +860,35 @@
             this.teste1.Size = new System.Drawing.Size(129, 38);
             this.teste1.TabIndex = 58;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(388, 542);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 36);
+            this.button1.TabIndex = 59;
+            this.button1.Text = "Sortear";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // label63
+            // 
+            this.label63.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.White;
+            this.label63.Location = new System.Drawing.Point(36, 543);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(313, 35);
+            this.label63.TabIndex = 60;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Navy;
             this.BackgroundImage = global::euromilhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
+            this.Controls.Add(this.label63);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.teste1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.teste);
@@ -1004,6 +1030,8 @@
         private System.Windows.Forms.Label teste;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label teste1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label63;
     }
 }
 
