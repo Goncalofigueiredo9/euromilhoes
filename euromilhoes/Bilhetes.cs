@@ -70,7 +70,6 @@ namespace euromilhoes
                         listam += (i + 1).ToString();
                     }
                 return listam;
-
             }
         }
     }

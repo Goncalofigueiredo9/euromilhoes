@@ -29,35 +29,52 @@ namespace euromilhoes
         {
             Label temp = (Label)sender;
             temp.Text = E.estrela(Convert.ToInt32(temp.Tag)-1);
-            teste1.Text = E.listao;
         }
 
         private void numeros(object sender, EventArgs e)
         {
             Label temp = (Label)sender;
             temp.Text = E.numero(Convert.ToInt32(temp.Tag)+1);
-            teste.Text = E.listanum;
+        }
+
+        private int[] sorteia(int qtd, int max)
+        {
+            Random rnd = new Random();
+            List<int> l = new List<int>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                int tmp;
+                do tmp = rnd.Next(1, max);
+                while (l.Contains(tmp));
+                l.Add(tmp);
+            }
+            l.Sort();
+            return l.ToArray();
         }
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
 
         }
-
-        Random rnd = new Random();
-        int randomnumber;
         private void Button1_Click(object sender, EventArgs e)
         {
-            randomnumber = rnd.Next(50);
-            randomnumber = rnd.Next(50);
-            randomnumber = rnd.Next(50);
-            randomnumber = rnd.Next(50);
-            randomnumber = rnd.Next(50);
-            label63.Text = randomnumber.ToString();
-            label63.Text = randomnumber.ToString();
-            label63.Text = randomnumber.ToString();
-            label63.Text = randomnumber.ToString();
-            label63.Text = randomnumber.ToString();
+            int[] n = sorteia(5, 51);
+            int[] s = sorteia(2, 12);
+
+            n1.Text = n[0].ToString();
+            n2.Text = n[1].ToString();
+            n3.Text = n[2].ToString();
+            n4.Text = n[3].ToString();
+            n5.Text = n[4].ToString();
+
+            s1.Text = s[0].ToString();
+            s2.Text = s[1].ToString();
+        }
+
+
+        private void Label63_Click_1(object sender, EventArgs e)
+        {
 
         }
 
@@ -66,4 +83,5 @@ namespace euromilhoes
 
         } 
     }
+
 }

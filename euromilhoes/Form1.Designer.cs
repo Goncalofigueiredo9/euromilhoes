@@ -90,11 +90,15 @@
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
-            this.teste = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.teste1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label63 = new System.Windows.Forms.Label();
+            this.n1 = new System.Windows.Forms.Label();
+            this.n2 = new System.Windows.Forms.Label();
+            this.n3 = new System.Windows.Forms.Label();
+            this.n4 = new System.Windows.Forms.Label();
+            this.n5 = new System.Windows.Forms.Label();
+            this.s1 = new System.Windows.Forms.Label();
+            this.s2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -830,16 +834,6 @@
             this.label62.Tag = "12";
             this.label62.Click += new System.EventHandler(this.estrela);
             // 
-            // teste
-            // 
-            this.teste.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.ForeColor = System.Drawing.Color.White;
-            this.teste.Location = new System.Drawing.Point(41, 504);
-            this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(346, 35);
-            this.teste.TabIndex = 56;
-            this.teste.Click += new System.EventHandler(this.Label63_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Black;
@@ -847,22 +841,14 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(2, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(191, 96);
+            this.pictureBox1.Size = new System.Drawing.Size(137, 72);
             this.pictureBox1.TabIndex = 57;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
-            // teste1
-            // 
-            this.teste1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste1.Location = new System.Drawing.Point(601, 525);
-            this.teste1.Name = "teste1";
-            this.teste1.Size = new System.Drawing.Size(129, 38);
-            this.teste1.TabIndex = 58;
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(388, 542);
+            this.button1.Location = new System.Drawing.Point(400, 531);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 36);
             this.button1.TabIndex = 59;
@@ -870,14 +856,82 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // label63
+            // n1
             // 
-            this.label63.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.ForeColor = System.Drawing.Color.White;
-            this.label63.Location = new System.Drawing.Point(36, 543);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(313, 35);
-            this.label63.TabIndex = 60;
+            this.n1.BackColor = System.Drawing.Color.White;
+            this.n1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n1.Location = new System.Drawing.Point(102, 531);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(36, 30);
+            this.n1.TabIndex = 61;
+            this.n1.Tag = "6";
+            this.n1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n2
+            // 
+            this.n2.BackColor = System.Drawing.Color.White;
+            this.n2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n2.Location = new System.Drawing.Point(144, 531);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(36, 30);
+            this.n2.TabIndex = 62;
+            this.n2.Tag = "6";
+            this.n2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n3
+            // 
+            this.n3.BackColor = System.Drawing.Color.White;
+            this.n3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n3.Location = new System.Drawing.Point(186, 531);
+            this.n3.Name = "n3";
+            this.n3.Size = new System.Drawing.Size(36, 30);
+            this.n3.TabIndex = 63;
+            this.n3.Tag = "6";
+            this.n3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n4
+            // 
+            this.n4.BackColor = System.Drawing.Color.White;
+            this.n4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n4.Location = new System.Drawing.Point(228, 531);
+            this.n4.Name = "n4";
+            this.n4.Size = new System.Drawing.Size(36, 30);
+            this.n4.TabIndex = 64;
+            this.n4.Tag = "6";
+            this.n4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // n5
+            // 
+            this.n5.BackColor = System.Drawing.Color.White;
+            this.n5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n5.Location = new System.Drawing.Point(270, 531);
+            this.n5.Name = "n5";
+            this.n5.Size = new System.Drawing.Size(36, 30);
+            this.n5.TabIndex = 65;
+            this.n5.Tag = "6";
+            this.n5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // s1
+            // 
+            this.s1.BackColor = System.Drawing.Color.White;
+            this.s1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.s1.Location = new System.Drawing.Point(628, 531);
+            this.s1.Name = "s1";
+            this.s1.Size = new System.Drawing.Size(36, 30);
+            this.s1.TabIndex = 66;
+            this.s1.Tag = "6";
+            this.s1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // s2
+            // 
+            this.s2.BackColor = System.Drawing.Color.White;
+            this.s2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.s2.Location = new System.Drawing.Point(670, 531);
+            this.s2.Name = "s2";
+            this.s2.Size = new System.Drawing.Size(36, 30);
+            this.s2.TabIndex = 67;
+            this.s2.Tag = "6";
+            this.s2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -887,11 +941,15 @@
             this.BackgroundImage = global::euromilhoes.Properties.Resources.euromilhoes;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 602);
-            this.Controls.Add(this.label63);
+            this.Controls.Add(this.s2);
+            this.Controls.Add(this.s1);
+            this.Controls.Add(this.n5);
+            this.Controls.Add(this.n4);
+            this.Controls.Add(this.n3);
+            this.Controls.Add(this.n2);
+            this.Controls.Add(this.n1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.teste1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.teste);
             this.Controls.Add(this.label62);
             this.Controls.Add(this.label61);
             this.Controls.Add(this.label60);
@@ -1027,11 +1085,15 @@
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label teste;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label teste1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label n1;
+        private System.Windows.Forms.Label n2;
+        private System.Windows.Forms.Label n3;
+        private System.Windows.Forms.Label n4;
+        private System.Windows.Forms.Label n5;
+        private System.Windows.Forms.Label s1;
+        private System.Windows.Forms.Label s2;
     }
 }
 
